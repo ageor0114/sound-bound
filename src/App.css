@@ -1,3 +1,11 @@
+body{
+width: 100vw;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
 .App {
   text-align: center;
 }
@@ -13,16 +21,56 @@
   }
 }
 
+.title{
+  font-family: 'Rubik-Bold';
+}
+
+.transition{
+  width:100vw;
+  background-color: black;
+}
+
 .App-header {
-  background-color: #282c34;
+  background-color: #000000;
   min-height: 100vh;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  font-family:'Rubik-Regular';
+  color: #15c3eb;
 }
+
+.App-section {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+  font-size: calc(10px + 2vmin);
+  font-family:'Rubik-Regular';
+  color: #000080;
+  margin-top:50px;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+@media all and (max-width: 500){
+  .App-section {
+   margin-left:10px;
+  }
+}
+
+@media all and (max-width: 2000px) and (min-width: 1001px) {
+  .App-section {
+   margin-left:400px;
+   margin-right:400px;
+  }
+}
+
 
 .App-link {
   color: #61dafb;
@@ -35,4 +83,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@font-face{
+  font-family:'Rubik-Regular';
+  src: local('Rubik-Regular'), url(./fonts/Rubik/Rubik-Regular.ttf) format('truetype');
+}
+
+@font-face{
+  font-family:'Rubik-Bold';
+  src: local('Rubik-Bold'), url(./fonts/Rubik/Rubik-Bold.ttf) format('truetype');
 }
