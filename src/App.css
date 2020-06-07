@@ -31,16 +31,15 @@ width: 100vw;
 }
 
 .App-header {
-  background-color: #000000;
+  background-color: #000080;
   min-height: 100vh;
-
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   font-family:'Rubik-Regular';
-  color: #15c3eb;
+  color: #FADCD9 /*15c3eb;*/
 }
 
 .App-section {
@@ -58,9 +57,20 @@ width: 100vw;
   margin-right: 10vw;
 }
 
-@media all and (max-width: 500){
+.beforeAfter{
+  width: 100%;
+  margin-top: 30px;
+}
+
+@media all and (max-width: 375px){
+  .logo{
+    width: 300px;
+  }
+}
+@media all and (max-width: 1000px){
   .App-section {
-   margin-left:10px;
+   margin-left:100px;
+   margin-right:100px;
   }
 }
 

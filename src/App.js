@@ -1,9 +1,14 @@
 import React from 'react';
+import './App.css';
+
+//Images
 import logo from './sb-blue.jpg';
 import wave from './white sound wave.jpg';
 import slant from './slant.png';
 import ombre from './ombre.png';
-import './App.css';
+import beforeAfter from './before-after.png';
+import musicGirl from './music-girl.png';
+import greenMusic from './green-music.png';
 
 //Fonts
 import './fonts/Rubik/Rubik-Bold.ttf';
@@ -13,15 +18,16 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} alt="logo" />
+        <img src={musicGirl} alt="logo" className="logo" />
         <h1 className="title">Sound Bound</h1>
         <p>Restore decency to the audio experience on the internet</p>
 
       </header>
-      <img src={wave} className="transition"/>
+      <img src={slant} className="transition"/>
       <section className="App-section">
-        <h1>Welcome to sound reimagined.</h1>
+        <h1>welcome to sound reimagined.</h1>
         <p>We get it. You're tired of the egregiously loud jumpscares and Spotify Ads. Yet, at the same time, you can barely hear the dialogue when you need it most while watching a movie on Netflix. Sound Bound is here to change that.</p>
+        <img src={beforeAfter} className="beforeAfter"/>
       </section>
     </div>
   );
