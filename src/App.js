@@ -9,6 +9,7 @@ import ombre from './ombre.png';
 import beforeAfter from './before-after.png';
 import musicGirl from './music-girl.png';
 import greenMusic from './green-music.png';
+import musicUI from './music-ui.png';
 
 //Fonts
 import './fonts/Rubik/Rubik-Bold.ttf';
@@ -18,9 +19,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={musicGirl} alt="logo" className="logo" />
+        <img src={musicUI} alt="logo" className="logo" />
         <h1 className="title">Sound Bound</h1>
-        <p>Restore decency to the audio experience on the internet</p>
+        <p className="subtitle">Restore decency to the audio experience on the internet</p>
 
       </header>
       <img src={slant} className="transition"/>

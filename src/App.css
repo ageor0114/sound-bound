@@ -25,6 +25,11 @@ width: 100vw;
   font-family: 'Rubik-Bold';
 }
 
+.subtitle{
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
 .transition{
   width:100vw;
   background-color: black;
@@ -39,7 +44,7 @@ width: 100vw;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   font-family:'Rubik-Regular';
-  color: #FADCD9 /*15c3eb;*/
+  color: #FADCD9; /*15c3eb;*/
 }
 
 .App-section {
