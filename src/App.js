@@ -22,12 +22,11 @@ function App() {
         <img src={musicUI} alt="logo" className="logo" />
         <h1 className="title">Sound Bound</h1>
         <p className="subtitle">Restore decency to the audio experience on the internet</p>
-
       </header>
       <img src={slant} className="transition"/>
       <section className="App-section">
         <h1>welcome to sound reimagined.</h1>
-        <p>We get it. You're tired of the egregiously loud jumpscares and Spotify Ads. Yet, at the same time, you can barely hear the dialogue when you need it most while watching a movie on Netflix. Sound Bound is here to change that.</p>
+        <p>We get it. You're tired of the egregiously loud jumpscares and Spotify Ads. Yet, at the same time, you can barely hear the dialogue when you need it most, while watching a movie on Netflix. Sound Bound is here to change that.</p>
         <img src={beforeAfter} className="beforeAfter"/>
       </section>
     </div>
